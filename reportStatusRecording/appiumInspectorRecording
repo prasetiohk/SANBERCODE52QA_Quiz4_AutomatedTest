@@ -1,1 +1,553 @@
 
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(554, 877);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(547, 642);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(312, 562);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(496, 532);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(698, 543);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(562, 1120);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(562, 1120);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(562, 1120);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(874, 1116);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(70, 1131);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(463, 899);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(125, 1417);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(125, 1417);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(125, 1417);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(99, 1711);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(81, 1245);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(81, 1245);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(290, 1245);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(1043, 1733);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(547, 1153);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(554, 1178);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(378, 874);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(224, 859);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(999, 1538);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(999, 1538);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(999, 1538);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(999, 1538);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(999, 1538);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(999, 1538);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(999, 1538);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(999, 1538);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(297, 866);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(573, 1127);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(1028, 1711);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(558, 1167);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(374, 393);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(518, 760);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(426, 764);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(576, 1112);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(540, 966);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(209, 213);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(239, 1854);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(257, 1843);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var start = new Point(136, 396);
+var end = new Point (154, 396);
+var swipe = new Sequence(finger, 1);
+swipe.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), start.getX(), start.getY()));
+swipe.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+swipe.addAction(finger.createPointerMove(Duration.ofMillis(1000),
+    PointerInput.Origin.viewport(), end.getX(), end.getY()));
+swipe.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(swipe));
+  
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(224, 1872);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(613, 404);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(595, 404);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(925, 283);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(947, 195);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
+final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+var tapPoint = new Point(966, 198);
+var tap = new Sequence(finger, 1);
+tap.addAction(finger.createPointerMove(Duration.ofMillis(0),
+    PointerInput.Origin.viewport(), tapPoint.x, tapPoint.y));
+tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+tap.addAction(new Pause(finger, Duration.ofMillis(50)));
+tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+driver.perform(Arrays.asList(tap));
+    
+
